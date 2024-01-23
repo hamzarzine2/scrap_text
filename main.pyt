@@ -17,7 +17,6 @@ if window:
 
     screenshot = ImageGrab.grab(bbox=(window.left, window.top, window.right, window.bottom))
 
-    screenshot.save("NewImage.jpg", format="JPEG")
     extracted_text = pytesseract.image_to_string(screenshot)
 
     print(extracted_text)
