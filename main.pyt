@@ -12,7 +12,6 @@ for win in window:
 
 if window:
     print(window)
-    window.activate()
 
     pyautogui.PAUSE = 1
 
